@@ -639,7 +639,7 @@ html {
 
 .main {
     background-size: cover;
-    background-image: linear-gradient(#000000b3, #000000b3), url(assets/hero-Qn5-WBkY.jpg);
+    background-image: linear-gradient(#000000b3, #000000b3), url(hero-Qn5-WBkY.jpg);
     height: 100vh
 }
 
