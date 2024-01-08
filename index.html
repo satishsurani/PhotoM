@@ -101,7 +101,16 @@
             <button class="border-black border-[1px] rounded-md py-2 px-8 mt-8 mb-14 text-xl hover:bg-white hover:text-black">View More</button>
         </div>
     </section>
-    <script src="script.js"></script>
+    <script>
+        window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("navbar").style.backgroundColor = "black";
+  } else {
+    document.getElementById("navbar").style.backgroundColor = "";
+  }
+}
+    </script>
 </body>
 
 </html>
