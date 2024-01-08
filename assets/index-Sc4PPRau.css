@@ -638,8 +638,8 @@ html {
 }
 
 .main {
-    background-size: ;
-    background-image: linear-gradient(#000000b3, #000000b3);
+    background-size: cover;
+    background-image: linear-gradient(#000000b3, #000000b3), url(/assets/hero-Qn5-WBkY.jpg);
     height: 100vh
 }
 
